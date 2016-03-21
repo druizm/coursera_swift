@@ -28,22 +28,18 @@ class Auto {
             velocidadActualEnNumero = 0
             velocidadActualEnCadena = "Apagado"
             self.velocidad = Velocidades.VelocidadBaja
-            break
         case 20 :
             velocidadActualEnNumero = 20
             velocidadActualEnCadena = "Velocidad baja"
             self.velocidad = Velocidades.VelocidadMedia
-            break
         case 50 :
             velocidadActualEnNumero = 50
             velocidadActualEnCadena = "Velocidad media"
             self.velocidad = Velocidades.VelocidadAlta
-            break
         case 120 :
             velocidadActualEnNumero = 120
             velocidadActualEnCadena = "Velocidad alta"
             self.velocidad = Velocidades.VelocidadMedia
-            break
         default:
             break
             
